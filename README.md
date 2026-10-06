@@ -117,3 +117,10 @@ Official documentation used:
 - https://www.ddcutil.com/command_setvcp/
 - https://www.ddcutil.com/display_selection/
 - https://www.ddcutil.com/i2c_permissions/
+
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
