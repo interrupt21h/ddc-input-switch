@@ -31,6 +31,9 @@ bash install.sh
 
 The installer installs for your user only. It creates an application-menu entry with right-click actions for Toggle, Input A and Input B. No sudo is used by the tool or installer. A desktop action runs without a terminal; use the GUI or CLI for error details.
 
+
+![screenshot-1](_attach/screenshot-1.png)  
+
 ## Configure
 
 1. Enable DDC/CI in the monitor's on-screen menu.
@@ -44,6 +47,9 @@ Common MCCS values are DisplayPort 1 = `0x0f`, DisplayPort 2 = `0x10`, HDMI 1 = 
 Configuration: `$XDG_CONFIG_HOME/ddc-input-switch/config.json` (normally `~/.config/ddc-input-switch/config.json`). A monitor with a manufacturer, model and ASCII serial is selected by those identifiers; they must uniquely identify it. Without those identifiers, selection uses its I²C bus, which can change after reconnecting or rebooting. Detect and save again if that happens. USB DDC monitors are not listed by this version.
 
 The GUI switches the current selection with its current A/B fields. Save to make those choices available to CLI and desktop actions. Buttons are disabled while DDC commands are running; the GUI remains responsive.
+
+![screenshot-2](_attach/screenshot-2.png)
+
 
 ## CLI and KDE shortcuts
 
